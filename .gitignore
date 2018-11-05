@@ -1,5 +1,5 @@
 # Ignore phpstorm hidden files.
-.idea/*
+.idea
 
 
 # Logs
