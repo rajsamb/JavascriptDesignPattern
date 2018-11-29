@@ -1,8 +1,8 @@
 var testModule = (function () {
-    //Variable & method declared are only availabe inside the module due to closure
+    //Variable & method declared are only availabe inside the module due to closure - Private
     var counter = 0;
 
-    //Variable & methods defined (like below) within the returning object are available to everyone.
+    //Variable & methods defined (like below) within the returning object are available to everyone - Public.
     return {
         incrementCounter: function() {
             return counter++;
